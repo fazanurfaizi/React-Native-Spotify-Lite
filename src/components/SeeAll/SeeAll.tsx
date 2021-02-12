@@ -5,9 +5,9 @@ import { NavigationStackProp } from 'react-navigation-stack'
 import { connect, ConnectedProps } from 'react-redux'
 import { RootStoreType } from '@/redux/rootReducer'
 import { colors } from '@/themes'
-import { SEARCH_BAR_HEIGHT } from '@/components/explore/search/TopBarSearch'
+import { SEARCH_BAR_HEIGHT } from '@/components/topBar/TopBarSearch'
 import BackBtnSearch from '@/components/buttons/BackBtnSearch'
-import ResultRow from '@/components/explore/search/ResultRow'
+import ResultRow from '@/components/search/ResultRow'
 
 type SeeAllType = { navigation: NavigationStackProp } & ReduxProps
 

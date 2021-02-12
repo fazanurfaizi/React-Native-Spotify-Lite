@@ -4,7 +4,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 import Animated from 'react-native-reanimated'
 import { AlbumType } from '@/models/SpotifyCommon'
 import { colors } from '@/themes'
-import { MARGIN_HORIZONTAL } from '@/components/explore/search/ResultRow'
+import { MARGIN_HORIZONTAL } from '@/components/search/ResultRow'
 import UIHelper from '@/helpers/UIHelper'
 
 const SeeAllBtn = React.memo(({

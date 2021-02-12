@@ -17,7 +17,7 @@ import {
 import { NavigationStackProp } from 'react-navigation-stack'
 import { connect, ConnectedProps } from 'react-redux'
 import SearchIcon from '@/components/icon/SearchIcon'
-import { SEARCH_BAR_HEIGHT } from '@/components/explore/search/TopBarSearch'
+import { SEARCH_BAR_HEIGHT } from '@/components/topBar/TopBarSearch'
 import BackBtnSearch from '@/components/buttons/BackBtnSearch'
 import CrossIcon from '@/components/icon/CrossIcon'
 import NoResults from './NoResults'
