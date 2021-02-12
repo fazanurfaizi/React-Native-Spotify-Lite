@@ -13,7 +13,7 @@ const DetailsCover = ({
     username
 }: {
     offsetY: Animated.Value<number>
-    artistName: string | undefined
+    artistName: string | null | undefined
     name: string | null |undefined
     imageUrl: string | undefined
     coverShape: "CIRCLE" | "SQUARE"
