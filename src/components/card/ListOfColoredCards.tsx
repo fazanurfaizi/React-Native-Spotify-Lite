@@ -2,7 +2,7 @@ import React from 'react'
 import { StyleSheet, ScrollView, View } from 'react-native'
 import { colors } from '@/themes'
 import ColoredCard from './ColoredCard'
-import { PLAYER_HEIGHT } from '@/screens/player/StickyPlayer'
+import { PLAYER_HEIGHT } from '@/components/player/StickyPlayer'
 
 const ListOfColoredCards = ({
     categoriesForCountry,

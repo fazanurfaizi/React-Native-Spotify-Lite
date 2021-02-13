@@ -3,7 +3,7 @@ import { FlatList, View } from 'react-native'
 import { colors } from '@/themes'
 import Artist from '@/components/artist/Artist'
 import { AlbumType } from '@/models/SpotifyCommon'
-import { PLAYER_HEIGHT } from '@/screens/player/StickyPlayer'
+import { PLAYER_HEIGHT } from '@/components/player/StickyPlayer'
 
 const ListOfArtist = ({
     currentUserArtists,

@@ -3,7 +3,7 @@ import { FlatList, View } from 'react-native'
 import { colors } from '@/themes'
 import Album from '@/components/album/Album'
 import { SavedAlbumType } from '@/redux/slices'
-import { PLAYER_HEIGHT } from '@/screens/player/StickyPlayer'
+import { PLAYER_HEIGHT } from '@/components/player/StickyPlayer'
 
 const ListOfAlbums = ({
     currentUserAlbums,

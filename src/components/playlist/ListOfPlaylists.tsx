@@ -4,7 +4,7 @@ import { TouchableOpacity } from 'react-native-gesture-handler'
 import { colors }  from '@/themes'
 import Playlist, { playlistStyle } from '@/components/playlist/Playlist'
 import { SavedPlaylistsType } from '@/redux/slices'
-import { PLAYER_HEIGHT } from '@/screens/player/StickyPlayer'
+import { PLAYER_HEIGHT } from '@/components/player/StickyPlayer'
 import PlaylistFavRow from '@/components/favorite/PlaylistFavRow'
 
 const ListOfPlaylists = ({
