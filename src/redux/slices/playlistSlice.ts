@@ -134,6 +134,7 @@ const getCurrentUserPlaylistsEpic = (actions$: Observable<Action<any>>) =>
 export const playlistEpics = [getCurrentUserPlaylistsEpic, getPlayListByIdEpic]
 
 export const {
+    clearCurrentPlaylist,
     getPlaylistById,
     getPlaylistByIdError,
     getPlaylistByIdSuccess,
