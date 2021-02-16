@@ -41,6 +41,6 @@ const store = configureStore({
 epicMiddleware.run(rootEpic)
 
 // Redux persist
-const pesistor = persistStore(store)
+const persistor = persistStore(store)
 
-export { store, pesistor }
+export { store, persistor }
